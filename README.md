@@ -13,9 +13,10 @@ os repositórios e alguns outros comandos no arquivo .bash_profile.
 ### How do I get set up? ###
 
 * Baixar os dois arquivos para a o diretório padrão
-* Editar a variável "workspace_directory" no arquivo git_update.py (Trocar pelo caminho que está seu workpace)
+* Editar o dicionario "repositories" no arquivo git_update.py (A chave deve ser o nome do projeto
+  e o valor deve ser o caminho absoluto para o projeto)
 * Executar: python install_aliases.py
-* Executar: cat .bash_profile e ver se os comandos foram gerados no fim do arquivo
+* Executar: cat .bash_profile (no diretório padrão) e ver se os comandos foram gerados no fim do arquivo
 * Fechar o terminal e abrir outro
 * Executar: gupdate do novo terminal em qualquer diretório da máquina
 
